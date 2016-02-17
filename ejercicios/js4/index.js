@@ -13,7 +13,6 @@ var map = {};
 map.setBasemap = function (text){
 	map.basemap = text;
 }
-
  map.setBasemap('streets');
 
 /*
@@ -29,3 +28,5 @@ map.setBasemap = function (text){
 /* Me sigue diciendo que "Uncaught TypeError: map.setBasemap is not a function"
 creo que porque se lanza antes la funcion anonima de que defina la funcnion setBasemap
 */
+
+
